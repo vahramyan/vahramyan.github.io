@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+div{
+  border:1px solid black;
+}
+ .completed {
+  text-decoration:line-through ;
+ }
