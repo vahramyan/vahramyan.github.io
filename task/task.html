@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+    <label for="number">Number:</label>
+    <select name="number" id="number" onchange="getNumber()">
+        <!-- onchange մեթոդը կաշխատի select-ի արժեքի փոփոխության դեպքում -->
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    <label for="bg">Background:</label>
+    <input type="color"  id="bg"  onchange="getBGcolor()">
+    <label for="tc" >Text Color:</label>
+    <input type="color" id="tc"  onchange="getTextColor()">
+    <label for="ta">Text:</label>
+    <textarea placeholder="type your text here" id="tA" title="type your text here"  ></textarea>
+    <hr>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Background</th>
+            <th>Text Color</th>
+            <th>Text</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <button onclick="change()">Change</button>
+    <hr>
+    <div class="container">
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div></div>
+    <label>Select your theme color:</label>
+<select id="themeSelector">
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+</select>
+<button onclick="saveTheme()">Save Theme</button>
+    <script src="task.js"></script>
+</body>
+
+</html>

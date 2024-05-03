@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  align-items: center;
+}
+nav ul {
+  width: 50%;
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+}
+.a1 {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  margin-left: 10px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  background-color: #0e4d70;
+}
+section {
+  width: 50%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 50px;
+
+}
+.photo {
+  width: 100%;
+  height: 250px;
+  background-color: #adc178;
+  border-radius: 5px;
+}
+.photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-left: 35%;
+}
+.bio {
+  background-color: #ade8f4;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.bio h2 {
+  text-align: center;
+  font-size: 28px;
+}
+.bio p {
+  width: 550px;
+  text-align: justify;
+  margin: 20px;
+  margin-left: 200px;
+}
+.hobbies {
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+  background-color:#fadf63;
+  border-radius: 5px;
+}
+.hobbies h2{
+    text-align: center;
+    font-size: 28px;
+}
+table{
+    background-color:aliceblue;
+    border:1px solid #a7aaa4 ;
+    border-radius: 10px;
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

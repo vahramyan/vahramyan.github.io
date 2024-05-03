@@ -1,0 +1,32 @@
+html{
+    background-color:rgb(195, 225, 243);
+    padding: 10px;
+    margin:10px;
+    border:1px solid black;
+    border-radius:20px;
+}
+body{
+    background-color:rgb(130, 190, 227);
+    padding: 10px;
+    margin: 10px;
+    border:1px solid black;
+    border-radius:20px;
+
+}
+section{
+    background-color:rgba(98, 152, 186, 0.873);
+    padding: 10px;
+    margin: 10px;
+    border:1px solid black;
+    border-radius:20px;
+    display: flex;
+    text-align: center;
+}
+article, aside{
+    background-color:rgba(59, 128, 172, 0.873);
+    padding: 10px;
+    margin: 10px;
+    border:1px solid black;
+    border-radius:20px;
+}
+h2, p, img, audio, video, 
